@@ -20,7 +20,7 @@ export default function Omikuji() {
             {fortune && (
                 <div>
                     <h2>結果： {fortune.split('\n')[0].split(':')[1]}</h2>
-                    <pre>{fortune}</pre>
+                    <pre>{fortunes}</pre>
                     </div>
             )}
         </div>
